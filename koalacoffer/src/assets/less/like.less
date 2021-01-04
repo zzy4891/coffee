@@ -1,0 +1,58 @@
+.like{
+    
+    /deep/ .van-nav-bar__text,
+    /deep/.van-icon-arrow-left::before{
+        color: #DEB897;
+    }
+
+    .fr{
+        float: right;
+    }
+    .fl{
+        float: left;
+    }
+   
+    .like-order{
+        width:105px;
+        height: 153px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        background-color: whitesmoke;
+       
+        &:nth-child(3n){
+            margin-right: 0;
+        }
+      
+    }
+    .like-img{
+        width: 85px;
+        height: 103px; 
+        cursor: pointer;
+        border-radius: 50%;
+       img{
+           border-radius: 50%;
+           padding: 10px;
+       }
+    }
+
+    .like-title{
+        font-size: 14px;
+        color: #d16812;
+        padding: 0px 10px;
+        overflow: hidden;    
+        text-overflow:ellipsis;    
+        white-space: nowrap;
+    }
+
+    .like-price{
+        color: red;
+        height: 20px;
+        padding: 10px 10px 0px 10px;
+        font-size: 12px;
+        line-height: 20px;
+        
+    }
+    .info-delete{
+        color: #ccc;
+    }
+}

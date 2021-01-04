@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "16407844",
+      "name": "考拉",
+      "font_class": "kaola",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    }
+  ]
+}
