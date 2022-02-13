@@ -1,0 +1,138 @@
+.home .van-nav-bar {
+  width: 100%;
+  position: fixed;
+}
+.home .van-nav-bar__left,
+.home .home-nav {
+  width: 100%;
+}
+.home .t1 {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: italic;
+}
+.home .t2 {
+  width: 120px;
+  font-size: 16px;
+  font-weight: bold;
+  color: burlywood;
+  text-align: left;
+  font-family: italic;
+  margin-top: 3px;
+}
+.home .t3 {
+  margin: 0 1px;
+  color: white;
+}
+.home .home-search .van-search {
+  padding: 0;
+  border-radius: 17px;
+  overflow: hidden;
+  margin-left: 15px;
+}
+.home .van-nav-bar__left {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 12px;
+}
+.home .van-nav-bar__right {
+  width: 50%;
+  right: -7px;
+}
+.home /deep/ .home-search .van-icon {
+  color: #ccc;
+}
+.home .home-content {
+  padding: 10px;
+}
+.home .banner-box {
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+.home .auto-img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.home .index-box {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  display: flex;
+}
+.home .index-box > div {
+  width: 16px;
+  height: 3px;
+  background-color: #fff;
+  margin-right: 5px;
+  border-radius: 2px;
+}
+.home .index-box > div.active {
+  background-color: deepskyblue ;
+}
+.home .product-box {
+  padding: 0 10px;
+}
+.home .pro-title {
+  width: calc(100% - 20px);
+  float: left;
+  font-size: 18px;
+  padding: 5px 10px;
+  background-color: #DEB897;
+  border-radius: 50px;
+  height: 32px;
+  line-height: 32px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 25px;
+  margin-top: 15px;
+  text-align: center;
+}
+.home .fl {
+  float: left;
+}
+.home .fr {
+  float: right;
+}
+.home .pro-item {
+  width: calc(50% - 25px);
+  margin-right: 10px;
+  padding: 10px;
+  background-color: white;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.home .pro-item:nth-child(2n) {
+  margin-right: 0;
+}
+.home .pro-info {
+  margin-top: 10px;
+}
+.home .pro-name {
+  color: #CE9B73;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+.home .pro-name .pro-detail {
+  font-size: 12px;
+}
+.home .pro-price {
+  color: red;
+  font-weight: bold;
+  font-size: 14px;
+}
+.home .one-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.home .pro-enname {
+  color: #999;
+  font-size: 12px;
+  margin: 5px 0px;
+}
+.home .banner-box {
+  margin-top: 50px;
+}
